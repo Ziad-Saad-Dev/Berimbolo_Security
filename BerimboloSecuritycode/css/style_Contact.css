@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* navbar */
+.search {
+  background-color: #def1df;
+}
+
+.nav-link {
+  margin-left: 60px;
+  font-weight: bold;
+  color: #35823c;
+}
+
+a .nav-link:hover {
+  color: black;
+}
+
+.bg-body-tertiary {
+  background-color: white !important;
+}
+
+.line {
+  margin-top: -5px;
+}
+
+/* Best sellers section */
+.row p {
+  color: #6e6e6e;
+}
+
+/* footer */
+.btn a svg:hover {
+  color: black;
+}
+
+.social-icons button a {
+  color: green;
+}
+
+tbody tr a {
+  color: #6e6e6e;
+}
+
+tbody tr a:hover {
+  color: #35823c;
+}
+
+.send button:hover {
+  background-color: white;
+  color: #35823c;
+  border: 1px solid #35823c;
+}
+
+/* form */
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.form-container {
+  max-width: 600px;
+  width: 100%;
+}
+.invalid-feedback {
+  display: none !important;
+}
+
+.is-invalid ~ .invalid-feedback {
+  display: block !important;
+}
+
+/* contact button */
+
+.contact:hover{
+    background-color: white;
+    color: #35823c;
+    border: 1px solid #35823c;
+}

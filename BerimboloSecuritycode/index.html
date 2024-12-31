@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Berimbolo Security</title>
+  <link rel="icon" type="image/x-icon" href="./image/favicon_logo.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style_home.css">
+</head>
+<body>
+  <!-- navbar search-->
+<nav>
+    <div class="search">
+        <nav class="navbar navbar-light ">
+            <div class="container">
+                <form class="d-flex input-group w-auto ms-auto">
+                    <input
+                        type="search"
+                        class="form-control rounded"
+                        placeholder="Search for products"
+                        aria-label="Search"
+                        aria-describedby="search-addon"
+                    />
+                </form>
+            </div>
+        </nav>
+    </div>
+</nav>
+<!-- navbar -->
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand col-3" href="index.html"><img src="./image/Logo.png" alt="" class="w-100 h-100"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Products.html">PRODUCTS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact US.html">CONTACT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Blog.html">Blog</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<hr>
+<!-- offer section -->
+ 
+<div class="container py-3 bg-white text-white sale" style="margin-top: -8px;">
+  <div class="row align-items-center bg">
+    <div class="col-md-8 text-center text-md-start">
+      <div class="text fw-bold text-light">
+        Black Friday Sale: Lowest Price of the Year on ALL Systems - $300 - $800+ in Equipment Savings When You Bundle
+      </div>
+    </div>
+    <div class="col-md-4 text-center text-md-end mt-2">
+      <div class="d-flex flex-wrap justify-content-center justify-content-md-end align-items-center">
+        <form name="myForm" onsubmit="return validateForm()">
+          <input name="fname" type="email" class="form-control me-2 mb-2 mb-md-0" placeholder="Enter your email address" style="max-width: 300px;">
+        </form>
+        <button class="btn btn-dark mb-2 mb-md-0">Get Offer</button>
+        <p class="text-light ms-3 me-auto mt-3">Get offer plus promotions and updates.</p>
+        <p class="text-light me-auto ms-3 mt-1">Review our privacy policy. </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- slides section -->
+<div class="row align-items-center">
+  <div class="container bg-white text-white responsive-carousel" style="max-width: 1344px; margin: 0 auto; margin-top: -17px; width: 100%;">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active position-relative">
+          <div class="row">
+            <div class="col-md-12">
+              <img src="./image/slide1.jpg" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <div class="hero">
+            <button class="btn btn-success pe-5 ps-5" href="Products.html">Shop</button>
+            <button class="btn btn-success pe-3 ps-3" href="Contact US.html">request quote</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./image/slide2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./image/slide3.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div> 
+  
+    
+
+<!-- grid pic -->
+<div class="container py-5">
+    <div class="row g-4">
+      <!-- grid_1 -->
+      <div class="col-md-6">
+        <div class="card text-white">
+          <img src="./image/grid_3.jpg" class="card-img rounded-5" alt="">
+          <div class="card-img-overlay text-center mt-4">
+            <h3 class="card-title fw-bold">Keep your family safe</h3>
+            <div class="mt-4 fw-bold p">
+              <p class="text-white">We don't stop at burglaries. From fires to floods,</p>
+              <p class="text-white">our state-of-the-art technology is always on alert.</p>
+              <a href="Products.html" id="Learn" class="btn btn-light">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- grid_2 -->
+      <div class="col-md-6">
+        <div class="card text-white">
+          <img src="./image/grid_4.jpg" class="card-img rounded-5" alt="">
+          <div class="card-img-overlay text-center mt-4">
+            <h3 class="card-title fw-bold mt-4">24/7 Professional Monitoring</h3>
+            <p class="text-white mt-4 fw-bold">Get around-the-clock monitoring for your home.</p>
+            <a href="Products.html" id="Learn" class="btn btn-light">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- best sellers section -->
+
+<h2 class="text-center mt-5 fw-bold">SHOP BEST SELLERS</h2>
+
+<!-- cards -->
+<div class="container mt-5 text-center card_container">
+  <div class="card-wrapper">
+    <ul class="card-list mb-5">
+      <li class="card-item row">
+        <div class="col-lg-4">
+          <a href="" class="card-link text-decoration-none width:400px; d-block">
+            <img src="./image/window_door_sensor1_borderless.jpg" alt="" class="w-75 me-5 ms-3">
+            <p class="text-center me-4">Door/Window Sensor</p>
+          </a>
+        </div>
+        <div class="col-lg-4 text-center mt-5">
+          <a href="" class="card-link text-decoration-none width:400px; d-block">
+            <img src="./image/motion_sensor_front_white_shadow_reflection_1.jpg" alt="" class="w-75 me-5 ms-3">
+            <p class="text-center mt-3 me-4">Motion Sensor</p>
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a href="" class="card-link text-decoration-none width:400px; d-block">
+            <img src="./image/smoke_heat_sensor1_borderless_1.jpg" alt="" class="w-75 me-5 ms-3">
+            <p class="text-center mt-4 me-4">Smoke + Heat Sensor</p>
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div> 
+</div>
+<a href="Products.html" class="d-flex justify-content-center align-content-center flex-wrap text-decoration-none ">
+  <button class="btn btn-success b">View All Products</button>
+</a>
+
+<!-- Testimonial -->
+<h2 class="fw-bold mt-5 text-dark text-center mb-5 fs-1" style="letter-spacing: 2px;">Testimonial</h2>
+<div class="container parent mb-5">
+  <div class="card" id="card">
+    <div class="card-img text-center">
+      <img src="./image/t-1.jpg" alt="" width="100" height="100" style="border-radius: 50%;">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title text-center">Customer One</h3>
+      <div class="icons text-center mb-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg>
+      </div>
+      <p class="card-description text-center">The website is awesome</p>
+    </div>
+  </div>
+  <div class="card" id="card">
+    <div class="card-img text-center">
+      <img src="./image/t-2.jpg" alt="" width="100" height="100" style="border-radius: 50%;">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title text-center">Customer Two</h3>
+      <div class="icons text-center mb-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
+          </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+          <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
+        </svg>
+      </div>
+      <p class="card-description text-center">The website is cool, but there is some things need improve</p>
+    </div>
+  </div>
+  <div class="card" id="card">
+    <div class="card-img text-center">
+      <img src="./image/t-3.jpg" alt="" width="100" height="100" style="border-radius: 50%;">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title text-center">Customer Three</h3>
+      <div class="icons text-center mb-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
+          <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+        </svg>
+      </div>
+      <p class="card-description text-center">The website is amazing</p>
+    </div>
+  </div>
+</div>
+
+<hr class="line">
+<!-- footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Shop</th>
+              <th scope="col" class="px-3">Company</th>
+              <th scope="col" class="px-3">Support</th>
+            </tr>
+          </thead>
+          <tbody class="text-decoration-none">
+            <tr>
+              <td><a href="Products.html" class="text-decoration-none">Browse Products</a></td>
+              <td><a href="#" class="text-decoration-none px-3">About Us</a></td>
+              <td><a href="Contact US.html" class="text-decoration-none px-3">Contact US</a></td>
+            </tr>
+            <tr>
+              <td><a href="#" class="text-decoration-none">Terms & Privacy Policy</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-lg-6">
+        <h4 class="fw-bold">Let's Stay Connected</h4>
+        <input type="email" name="" id="" placeholder="Your Email" class="form-control">
+        <a href="#" class="send">
+          <button class="btn btn-success p-2 mt-3">Send</button>
+        </a>
+        <h4 class="mt-4 fw-bold">Follow US</h4>
+        <!-- social media icons -->
+        <div class="social-icons">
+          <button class="btn">          
+            <a href="#" aria-label="Instagram" class="text-decoration-none">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+              </svg>
+            </a>
+          </button>
+          <button class="btn">        
+            <a href="#" aria-label="X (Twitter)" class="text-decoration-none ">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+              </svg>
+            </a>
+          </button>
+          <button class="btn">        
+            <a href="#" aria-label="Facebook" class="text-decoration-none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                </svg>
+            </a>
+          </button>
+          <button class="btn">        
+            <a href="#" aria-label="YouTube" class="text-decoration-none">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+              </svg>
+            </a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+ <script src="js/bootstrap.bundle.min.js"></script>
+ <script src="js/home.js"></script>
+</body>
+</html>

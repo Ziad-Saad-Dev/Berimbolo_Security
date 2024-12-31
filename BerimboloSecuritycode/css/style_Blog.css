@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* nav bar */
+.search {
+  background-color: #def1df;
+}
+
+.nav-link {
+  margin-left: 60px;
+  font-weight: bold;
+  color: #35823c;
+}
+
+a .nav-link:hover {
+  color: black;
+}
+
+.bg-body-tertiary {
+  background-color: white !important;
+}
+
+.line {
+  margin-top: -5px;
+}
+
+/* Home security blog section */
+.row p {
+  color: #6e6e6e;
+}
+
+.container h2 {
+  color: #6e6e6e;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* search blog */
+
+.hidden {
+  display: none;
+}
+.card-content {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+.card-content:hover {
+  background-color: #f9f9f9;
+  transform: scale(1.02);
+}
+.highlight {
+  border: 2px solid #007bff;
+  background-color: #e7f3ff;
+}
+
+/* blog news */
+.container_parent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.card-description {
+  font-size: 14px;
+  color: #666;
+  margin: 0 0 15px;
+}
+
+.read-more {
+  text-decoration: none;
+  color: #35823c;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.read-more:hover {
+  color: black;
+}
+
+/* footer */
+.btn a svg:hover {
+  color: black;
+}
+
+.social-icons button a {
+  color: green;
+}
+
+tbody tr a {
+  color: #6e6e6e;
+}
+
+tbody tr a:hover {
+  color: #35823c;
+}
+
+.send button:hover {
+  background-color: white;
+  color: #35823c;
+  border: 1px solid #35823c;
+}
